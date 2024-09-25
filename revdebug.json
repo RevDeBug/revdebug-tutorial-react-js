@@ -1,0 +1,21 @@
+{
+    "host": "revdebug.server.address",
+    "port": "42734",
+    "secure": true,
+    "apm": true,
+    "screen": true,
+    "version": "1.0.0",
+    "solution": "React Project - Js",
+    "application": "Revdebug tutorial React Js",
+    "type": "module",
+    "mode": "onevent",
+    "sourceMap": true,
+    "path": "src",
+    "files": "**/*.js",
+    "index": "public/index.html",
+    "excludeInst": "import",
+    "target": "web",
+    "entrySpan": "single",
+    "useFMP": true,
+    "sw_trace_ignore_path": "/main*"
+}

@@ -1,0 +1,84 @@
+body {
+  padding-top: 100px;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 25px;
+}
+
+h1 a {
+  color: #CD2C24;
+}
+
+h1 a:hover {
+  color: #CD2C24;
+}
+
+.navbar-default {
+  background-color: #fefefe;
+  text-align: right;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fefefe;
+  text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #9a0901;
+}
+
+.navbar-default .navbar-nav>li {
+  background-color: #CD2C24;
+  margin: 0px 1px;
+}
+
+.navbar-default .navbar-brand {
+  margin-top: 10px;
+}
+
+img.logo {
+  width: 200px;
+}
+
+img.logoConstruction {
+  width: 100%;
+  margin: 150px auto 50px;
+  display: block;
+}
+
+.table.tableInvoices {
+  margin: 50px 0;
+}
+
+.table.tableInvoices thead {
+  background-color: #63A69F;
+  color: #fefefe;
+}
+
+.table tbody>tr>td {
+  border-bottom: 1px solid #eeeeee;
+  vertical-align: middle;
+}
+
+.table-th thead th {
+  text-align: center;
+}
+
+.tableInvoices a {
+  color: #CD2C24;
+}
+
+footer {
+  background-color: #3e3e3e;
+  color: #fefefe;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+}
