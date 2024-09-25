@@ -5,7 +5,7 @@ This application is a simple invoice management system built with React. The fol
 #### Clone the project
 Go to the directory where you want to clone the repository:
 ```sh
-git clone https://lspace.tryrevdebug.com/lepicka.klaudia/revdebug-tutorial-react-js.git
+git clone https://github.com/RevDeBug/revdebug-tutorial-react-js
 ```
 #### Configure RevDeBug repository:
 
@@ -15,7 +15,7 @@ git clone https://lspace.tryrevdebug.com/lepicka.klaudia/revdebug-tutorial-react
 
     npm install 
 
-#### Configure ```revdebug.json```
+#### RevDeBug Configuration
 Make sure to configure at least the **host** field and the secure field. The other options are optional.
 
 ```js
@@ -54,6 +54,22 @@ Or instrument passing different host:
 ### Run the application
 
     npm start
+
+## Running with Docker
+To run the Angular application using Docker, follow these steps:
+
+For more information on how to configure RevDeBug, see the [RevDeBug Configuration](#revdebug-configuration) section.
+
+Build the Docker image:
+```bash
+docker-compose build
+```
+Run the Docker container:
+```bash
+docker-compose up
+```
+Access the application: Open your browser and navigate to http://localhost:3000/.
+
 ## Application Overview
 Navigate to Invoices web page. ("Invoice Tutorial" hyperlink)
 
