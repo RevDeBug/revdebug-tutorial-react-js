@@ -56,9 +56,9 @@ Or instrument passing different host:
     npm start
 
 ## Running with Docker
-To run the Angular application using Docker, follow these steps:
+To run the React application using Docker, follow these steps:
 
-For more information on how to configure RevDeBug, see the [RevDeBug Configuration](#revdebug-configuration) section.
+Before running, configure revdebug.json. See [here](#revdebug-configuration) for how to do it.
 
 Build the Docker image:
 ```bash
