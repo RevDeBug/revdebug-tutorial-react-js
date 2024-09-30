@@ -11,9 +11,10 @@ git clone https://github.com/RevDeBug/revdebug-tutorial-react-js
 
     npm config set @revdebug:registry https://nexus.revdebug.com/repository/npm/
 
-#### Install dependancies (including RevDeBug):
+#### Install dependencies (including RevDeBug):
 
     npm install 
+    npm install @revdebug/revdebug
 
 #### RevDeBug Configuration
 Make sure to configure at least the **host** field and the secure field. The other options are optional.
@@ -71,7 +72,7 @@ docker-compose up
 Access the application: Open your browser and navigate to http://localhost:3000/.
 
 ## Application Overview
-Navigate to Invoices web page. ("Invoice Tutorial" hyperlink)
+Navigate to Invoices web page.
 
 ![Invoices home page](./public/Images/InvReactHomePage.PNG)
 
