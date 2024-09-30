@@ -7,13 +7,16 @@ WORKDIR /app
 # Copy package.json and package-lock.json to the working directory
 COPY package*.json ./
 
-# Install dependencies
+ARG REVDEBUG_SERVER_HOSTNAME_COMMAND
+
+RUN npm config set @revdebug:registry https://nexus.revdebug.com/repository/npm/
 RUN npm install
+RUN npm install @revdebug/revdebug
 
 # Copy the rest of the application files
 COPY . .
 
-RUN npx revd
+RUN npx revd ${REVDEBUG_SERVER_HOSTNAME_COMMAND}
 
 # Build the React app
 RUN npm run build
